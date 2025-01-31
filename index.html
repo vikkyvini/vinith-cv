@@ -3,33 +3,89 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vinith - CV</title>
+    <title>Vinith Nair - Cybersecurity Specialist</title>
     <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
 </head>
 <body>
     <header>
-        <h1>Vinith</h1>
-        <p>Senior Systems Engineer | Cybersecurity Specialist</p>
+        <div class="container">
+            <div class="profile">
+                <img src="assets/profile.jpg" alt="Vinith Nair">
+                <h1>Vinith Nair</h1>
+                <p>Senior Systems Engineer | Cybersecurity Specialist</p>
+                <a href="assets/cv.pdf" class="btn" download>📄 Download CV</a>
+            </div>
+            <button id="dark-mode-toggle">🌙 Dark Mode</button>
+        </div>
     </header>
-    <section>
-        <h2>About Me</h2>
-        <p>Experienced IT professional with expertise in cybersecurity, cloud security, and system engineering.</p>
-    </section>
-    <section>
-        <h2>Skills</h2>
+
+    <nav>
         <ul>
-            <li>Cybersecurity (SOC, SIEM, Cloud Security)</li>
-            <li>Docker & ARM64 Deployments</li>
-            <li>Microsoft & AWS Cloud Security</li>
-            <li>Endpoint Protection & Compliance</li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#certifications">Certifications</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Proven success in systems optimization and cybersecurity with 5+ years of experience, specializing in security tools, vulnerability management, and cloud security.</p>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <div class="skills-grid">
+            <span>✔️ Vulnerability Management</span>
+            <span>✔️ Threat Intelligence</span>
+            <span>✔️ Security Tool Implementation</span>
+            <span>✔️ Cloud Security (AWS, Azure)</span>
+            <span>✔️ Compliance (NIST, GDPR, PCI DSS)</span>
+            <span>✔️ SQL & Documentation</span>
+        </div>
+    </section>
+
+    <section id="experience">
+        <h2>Work Experience</h2>
+        <div class="job">
+            <h3>Sr. Security Engineer - H&R Block</h3>
+            <p><em>Dec 2022 – Present</em></p>
+            <ul>
+                <li>Developing automated security solutions & API integrations.</li>
+                <li>Managing threat detection & vulnerability remediation.</li>
+                <li>Conducting security audits & compliance enforcement.</li>
+            </ul>
+        </div>
+        <div class="job">
+            <h3>Security Engineer - Teraet INC</h3>
+            <p><em>Nov 2020 – Jul 2022</em></p>
+            <ul>
+                <li>Led vulnerability management & security operations.</li>
+                <li>Implemented compliance audits & remediation processes.</li>
+                <li>Managed security monitoring & SIEM analysis.</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="certifications">
+        <h2>Certifications</h2>
+        <ul>
+            <li>Microsoft Certified IT Professional (MCITP)</li>
+            <li>Cisco Certified Network Associate (CCNA) - Expired</li>
         </ul>
     </section>
-    <section>
-        <h2>Experience</h2>
-        <p><strong>Senior Systems Engineer - H&R Block</strong> (10+ Years Experience)</p>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>📧 <a href="mailto:vikky.vini@gmail.com">vikky.vini@gmail.com</a></p>
+        <p>📞 (+91) 895-1545700</p>
+        <p>🔗 <a href="https://www.linkedin.com/in/vinith-nair-a401982a" target="_blank">LinkedIn Profile</a></p>
     </section>
+
     <footer>
-        <p>Contact: vinith@example.com | <a href="https://linkedin.com/in/vinith">LinkedIn</a></p>
+        <p>&copy; 2024 Vinith Nair | Cybersecurity Specialist</p>
     </footer>
 </body>
 </html>
